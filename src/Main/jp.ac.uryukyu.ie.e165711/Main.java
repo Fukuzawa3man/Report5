@@ -5,7 +5,7 @@
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args)throws NumberFormatException{
         try {
             String str = "3．14";
             int str_len = str.length();
