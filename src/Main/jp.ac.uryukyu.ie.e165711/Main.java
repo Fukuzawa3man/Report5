@@ -7,10 +7,12 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args){
         try {
-            String str = null;
+            String str = "3．14";
+            double value = Double.parseDouble(str);
             int str_len = str.length();
-
             System.out.println(str_len);
+            System.out.println(value);
+
         }catch(NullPointerException e){
             e.printStackTrace();
             System.out.println(e.getMessage());
